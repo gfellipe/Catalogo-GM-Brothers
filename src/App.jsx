@@ -448,7 +448,7 @@ const App = () => {
           <p className="text-slate-400 text-sm mb-10 max-w-md mx-auto">Elevando o padrão de estética automotiva. Seu carro em boas mãos.</p>
           
           <div className="flex justify-center gap-8 mb-10">
-            <a href="https://www.instagram.com/gmbrothers.estetica" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-red-600 transition hover:scale-110 transform duration-200"><Instagram size={24} /></a>
+            <a href="https://www.instagram.com/esteticaautomotivagmbrothers" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-red-600 transition hover:scale-110 transform duration-200"><Instagram size={24} /></a>
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-green-500 transition hover:scale-110 transform duration-200"><MessageCircle size={24} /></a>
           </div>
 
