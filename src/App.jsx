@@ -242,7 +242,19 @@ const App = () => {
         { label: "SUV/Hatch G", value: 280 },
         { label: "SUV G/Picape", value: 310 },
       ]
-    }
+    },
+    {
+  id: 15,
+  category: 'polimentos',
+  title: "Polimentos",
+  subtitle: "Em breve...",
+  featured: false,
+  description: "Estamos preparando novos serviços profissionais de polimento automotivo!",
+  includes: [],
+  prices: [
+    { label: "Em breve", value: "--" }
+  ]
+}
   ];
 
   const filteredServices = activeTab === 'todos' 
@@ -322,7 +334,8 @@ const App = () => {
               {id: 'pacotes', label: 'Pacotes & Combos', icon: <Layers size={16} />},
               {id: 'lavagem', label: 'Lavagens', icon: <CarFront size={16} />},
               {id: 'higienizacao', label: 'Higienização', icon: <Droplet size={16} />},
-              {id: 'especiais', label: 'Especiais', icon: <Star size={16} />}
+              {id: 'especiais', label: 'Especiais', icon: <Star size={16} />},
+              { id: 'polimentos', label: 'Polimentos', icon: <Star size={16} /> }
             ].map(tab => (
               <button
                 key={tab.id}
