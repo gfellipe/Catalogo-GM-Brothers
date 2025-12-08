@@ -98,12 +98,12 @@ const App = () => {
       description: "Detalhes que fazem toda a diferença na estética.",
       includes: [
         { section: "Vitrificação de Faróis", items: ["Polimento da lente", "Proteção cerâmica (1 ano)", "Remove amarelado"] },
-        { section: "Outros", items: ["Limpeza de Forro de Teto", "Tratamento de Vidros (Chuva ácida)"] }
+        { section: "Outros", items: ["Limpeza de Forro de Teto", "Tratamento de Vidros"] }
       ],
       prices: [
         { label: "Faróis", value: "150", prefix: "A partir de R$ " },
         { label: "Teto", value: "80", prefix: "A partir de R$ " },
-        { label: "Vidros", value: "70", prefix: "A partir de R$ " },
+        { label: "Vidros", value: "100", prefix: "A partir de R$ " },
       ]
     },
     // --- PACOTES (COMBOS) ---
