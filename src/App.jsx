@@ -106,26 +106,13 @@ const App = () => {
       ] 
     },
     { 
-      section: "Tratamento de Vidros", 
+      section: "Tratamento + Vitrificação", 
       items: [
         "Descontaminação completa dos vidros",
-        "Remoção de manchas, gordura e chuva ácida"
-      ] 
-    },
-    { 
-      section: "Vitrificação de Vidros (Glaco)", 
-      items: [
-        "Proteção hidrofóbica",
+        "Remoção de manchas, gordura e chuva ácida",  
         "Aumento da visibilidade na chuva",
-        "Efeito repelência instantâneo"
+        "Efeito repelência"
       ] 
-    },
-    {
-      section: "Tratamento + Vitrificação",
-      items: [
-        "Somente para-brisa: R$ 100",
-        "Todos os vidros: R$ 140"
-      ]
     },
     { 
       section: "Outros", 
@@ -137,7 +124,8 @@ const App = () => {
   prices: [
     { label: "Faróis", value: "150", prefix: "A partir de R$ " },
     { label: "Teto", value: "80", prefix: "A partir de R$ " },
-    { label: "Vidros", value: "100", prefix: "A partir de R$ " }
+    { label: "Somente para-brisa:", value: "100", prefix: "A partir de R$ " },
+    { label: "Todos os vidros:", value: "140", prefix: "A partir de R$ " }
   ]
 },
 ,
