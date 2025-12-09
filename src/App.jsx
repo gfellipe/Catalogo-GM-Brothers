@@ -90,22 +90,57 @@ const App = () => {
     },
     // --- ESPECIAIS ---
     {
-      id: 6,
-      category: 'especiais',
-      title: "Serviços Especiais",
-      subtitle: "Faróis, Vidros e Teto",
-      featured: false,
-      description: "Detalhes que fazem toda a diferença na estética.",
-      includes: [
-        { section: "Vitrificação de Faróis", items: ["Polimento da lente", "Proteção cerâmica (1 ano)", "Remove amarelado"] },
-        { section: "Outros", items: ["Limpeza de Forro de Teto", "Tratamento de Vidros"] }
-      ],
-      prices: [
-        { label: "Faróis", value: "150", prefix: "A partir de R$ " },
-        { label: "Teto", value: "80", prefix: "A partir de R$ " },
-        { label: "Vidros", value: "100", prefix: "A partir de R$ " },
+  id: 6,
+  category: 'especiais',
+  title: "Serviços Especiais",
+  subtitle: "Faróis, Vidros e Teto",
+  featured: false,
+  description: "Detalhes que fazem toda a diferença na estética.",
+  includes: [
+    { 
+      section: "Vitrificação de Faróis", 
+      items: [
+        "Polimento da lente", 
+        "Proteção cerâmica (1 ano)", 
+        "Remove amarelado"
+      ] 
+    },
+    { 
+      section: "Tratamento de Vidros", 
+      items: [
+        "Descontaminação completa dos vidros",
+        "Remoção de manchas, gordura e chuva ácida"
+      ] 
+    },
+    { 
+      section: "Vitrificação de Vidros (Glaco)", 
+      items: [
+        "Proteção hidrofóbica",
+        "Aumento da visibilidade na chuva",
+        "Efeito repelência instantâneo"
+      ] 
+    },
+    {
+      section: "Tratamento + Vitrificação",
+      items: [
+        "Somente para-brisa: R$ 100",
+        "Todos os vidros: R$ 140"
       ]
     },
+    { 
+      section: "Outros", 
+      items: [
+        "Limpeza de Forro de Teto"
+      ] 
+    }
+  ],
+  prices: [
+    { label: "Faróis", value: "150", prefix: "A partir de R$ " },
+    { label: "Teto", value: "80", prefix: "A partir de R$ " },
+    { label: "Vidros", value: "100", prefix: "A partir de R$ " }
+  ]
+},
+,
     // --- PACOTES (COMBOS) ---
     {
       id: 7,
