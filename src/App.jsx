@@ -10,6 +10,24 @@ const App = () => {
     {
       id: 1,
       category: 'lavagem',
+      title: "Limpeza Convencional",
+      subtitle: "Manutenção de Qualidade",
+      featured: false,
+      description: "Ideal para a manutenção do dia a dia com qualidade GM Brothers",
+      includes: [
+        { section: "Serviços Inclusos", items: ["Pré-lavagem", "Lavagem", "Limpeza de rodas e caixas", "Aspiração completa", "Limpeza leve interna", "Pretinho e Cheirinho"] }
+      ],
+      prices: [
+        { label: "Pequeno", value: 50 },
+        { label: "Médio", value: 60 },
+        { label: "SUV/Hatch G", value: 75 },
+        { label: "SUV G/Picape", value: 85 },
+      ],
+      extraPriceInfo: "Com aplicação de cera: +R$ 10,00"
+    },
+    {
+      id: 2,
+      category: 'lavagem',
       title: "Limpeza Técnica Detalhada",
       subtitle: "Detalhamento Completo",
       featured: true,
@@ -25,24 +43,6 @@ const App = () => {
         { label: "SUV/Hatch G", value: 290 },
         { label: "SUV G/Picape", value: 330 },
       ]
-    },
-    {
-      id: 2,
-      category: 'lavagem',
-      title: "Limpeza Convencional",
-      subtitle: "Manutenção de Qualidade",
-      featured: false,
-      description: "Ideal para a manutenção do dia a dia com qualidade GM Brothers",
-      includes: [
-        { section: "Serviços Inclusos", items: ["Pré-lavagem", "Lavagem", "Limpeza de rodas e caixas", "Aspiração completa", "Limpeza leve interna", "Pretinho e Cheirinho"] }
-      ],
-      prices: [
-        { label: "Pequeno", value: 50 },
-        { label: "Médio", value: 60 },
-        { label: "SUV/Hatch G", value: 75 },
-        { label: "SUV G/Picape", value: 85 },
-      ],
-      extraPriceInfo: "Com aplicação de cera: +R$ 10,00"
     },
     // --- HIGIENIZAÇÃO ---
     {
